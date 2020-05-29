@@ -50,7 +50,7 @@ function is_requirements_met_dbm()
  */
 function activate_dbmanager()
 {
-    GWWeatherActDeAct::activate();
+
 }
 
 //
@@ -59,7 +59,7 @@ function activate_dbmanager()
  */
 function deactivate_dbmanager()
 {
-    GWWeatherActDeAct::deactivate();
+
 }
 
 register_activation_hook(__FILE__, 'activate_dbmanager');
