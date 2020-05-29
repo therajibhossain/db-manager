@@ -23,8 +23,8 @@ define('DBMANAGER_VERSION', '1.0.0');
 define('DBMANAGER_NAME', 'db-manager');
 define('DBMANAGER_FILE', plugin_basename(__FILE__));
 define('DBMANAGER_URL', plugins_url(DBMANAGER_NAME . '/'));
-define('DBMANAGER_STYLES', DBMANAGER_URL . 'assets/css/');
-define('DBMANAGER_SCRIPTS', DBMANAGER_URL . 'assets/js/');
+define('DBMANAGER_STYLES', DBMANAGER_URL . 'css/');
+define('DBMANAGER_SCRIPTS', DBMANAGER_URL . 'js/');
 define('DBMANAGER_LOGS', DBMANAGER_DIR_PATH . 'logs/');
 
 function is_requirements_met_dbm()

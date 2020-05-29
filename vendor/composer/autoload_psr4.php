@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'WeatherInfo\\' => array($baseDir . '/inc'),
+    'DBManager\\' => array($baseDir . '/inc'),
 );

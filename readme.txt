@@ -7,7 +7,7 @@ Requires PHP: 5.6
 Stable tag: 1.0.0
 License: GPLv2 or later
 
-DB Manager manages backup & restoring of your database efficiently.
+Simple Database Manager for backup and restore.
 
 == Description ==
 
@@ -49,6 +49,7 @@ This plugin lets us to Restore DB Backup without any hassle.</li>
 
 
 = Key Features =
+* Well Coded
 * Very easy to use, coding not required!
 * No limitation
 * UTF-8 character support

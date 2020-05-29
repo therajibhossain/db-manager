@@ -32,7 +32,7 @@ trait Config
         if (!self::$_menu_tabs) {
             $tab_list = array(
                 array(
-                    'title' => 'Settings', 'subtitle' => $subtitle, 'status' => 1, 'fields' => array(
+                    'title' => 'DB Manager Dashboard', 'subtitle' => $subtitle, 'status' => 1, 'fields' => array(
                     array('name' => 'field1', 'title' => ' ', 'type' => 'text'),
                 ),
                 ),
@@ -92,7 +92,7 @@ trait Config
         if (!isset(self::$_setting_url)) {
             self::$_setting_url = esc_url(add_query_arg(
                 'page',
-                GWW_NAME,
+                DBMANAGER_NAME,
                 get_admin_url() . 'admin.php'
             ));
         }
