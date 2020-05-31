@@ -14,6 +14,7 @@ Simple Database Manager for backup and restore.
 Using DB Manager is so easy.
 
 It allows to download, restore, and delete backups of database.
+Please be noted, classes are loaded through vendor autoload file.
 
 
 == Installation ==
